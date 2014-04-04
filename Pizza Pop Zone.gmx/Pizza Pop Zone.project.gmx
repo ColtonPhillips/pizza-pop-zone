@@ -5,26 +5,27 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
+    <sound>sound\snd_ballooning</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_pizza</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bg_hearts</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\script0.gml</script>
+    <script>scripts\object_is_off_room.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_pizza</object>
+    <object>objects\obj_draw_score</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
