@@ -25,8 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(font0);
-draw_text(10,10,string(score));
+            <string>var str = string(score) + " / " +  string(highscore_value(1));
+
+draw_set_font(font0);
+draw_set_colour(c_blue);
+draw_text(10,10,str);
+
+draw_set_colour(c_green);
+draw_text(12,12,str);
+
+draw_set_colour(c_white);
+draw_text(11,11,str);
 </string>
           </argument>
         </arguments>

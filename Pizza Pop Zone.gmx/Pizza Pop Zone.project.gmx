@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_ballooning</sound>
+    <sound>sound\snd_chip_boom</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_pizza</sprite>
@@ -16,6 +17,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\object_is_off_room.gml</script>
+    <script>scripts\scr_chance.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
